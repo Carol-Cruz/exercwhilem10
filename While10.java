@@ -18,8 +18,9 @@ public class While10 {
 		while (idade > -1) {
 			System.out.println("Digite sua idade:");
 			idade = captura.nextInt();
-			if (idade < 21) {
+			if (idade != 0 && idade < 21) {
 				totalMenor++;
+
 			} else if (idade > 50) {
 				totalMaior++;
 			}
